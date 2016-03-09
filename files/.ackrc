@@ -1,0 +1,8 @@
+--follow
+--ignore-file=is:tags
+--ignore-file=is:.tags
+--smart-case
+--type-add=css=.sass,.scss,.styl,sass,scss
+--type-add=js=json,tmpl,jst,coffee,ts
+--type-add=ruby=haml,rabl,builder
+--type-set=md=.markdown,.md

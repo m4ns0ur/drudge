@@ -1,0 +1,14 @@
+{
+    "go.docsTool": "gogetdoc",
+    "go.lintFlags": ["--dupl-threshold 100", "--fast", "--skip pb", "--tests", "--vendor"],
+    "go.lintTool": "gometalinter",
+    "workbench.iconTheme": "vs-minimal",
+    "window.zoomLevel": 0,
+    "[cpp]": {
+        "editor.quickSuggestions": false
+    },
+    "[c]": {
+        "editor.quickSuggestions": false
+    },
+    "explorer.openEditors.visible": 0
+}

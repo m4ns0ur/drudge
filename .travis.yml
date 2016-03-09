@@ -1,0 +1,7 @@
+before_script: go vet ./...
+go: 1.8
+install: go get ./... github.com/mattn/goveralls
+language: go
+script:
+  - go test -v -covermode count -coverprofile cover.out ./drudge/...
+  - goveralls -coverprofile cover.out -service travis-ci -repotoken $COVERALLS_TOKEN
