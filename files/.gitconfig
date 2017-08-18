@@ -60,10 +60,8 @@
 	autosquash = true
 [rerere]
 	enabled = true
-[url "git@github.com:bigcommerce/"]
-	insteadOf = https://github.com/bigcommerce/
-[url "git@github.com:bigcommerce-labs/"]
-	insteadOf = https://github.com/bigcommerce-labs/
+[url "git@github.com:"]
+	insteadOf = https://github.com/
 [user]
 	email = will.faught@gmail.com
 	name = Will Faught
