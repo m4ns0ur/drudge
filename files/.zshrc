@@ -182,6 +182,8 @@ alias gom='goimports -d -w .'
 alias gor='go run *.go'
 alias got='go test ./...'
 alias gotr='go test -run'
+alias gotrv='go test -v -run'
+alias gotv='go test -v ./...'
 
 alias hi='history'
 
