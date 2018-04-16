@@ -52,6 +52,8 @@
 [merge]
 	defaulttoupstream = true
 	log = true
+[pager]
+  branch = false
 [pull]
 	rebase = true
 [push]
