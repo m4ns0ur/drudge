@@ -223,7 +223,7 @@ alias vi='vim'
 alias vid='vi Dockerfile'
 alias vic='vi docker-compose.yml'
 alias viz='vi ~/.zshrc && source ~/.zshrc'
-alias vizl='vi ~/.zshrc.local && source ~/.zshrc.local'
+alias vizl='vi ~/.zshrc.local; test -e ~/.zshrc.local && source ~/.zshrc.local; true'
 
 alias web='python -m SimpleHTTPServer 8080'
 
