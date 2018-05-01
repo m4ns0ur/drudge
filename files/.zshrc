@@ -189,6 +189,8 @@ alias hi='history'
 
 alias jo='jobs'
 
+alias kc='kubectl'
+
 alias lsa='ls -A'
 alias lsal='ls -Ahl'
 alias lsl='ls -hl'
