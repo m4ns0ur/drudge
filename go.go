@@ -9,7 +9,7 @@ import (
 func init() {
 	var packages = []string{
 		"github.com/alecthomas/gometalinter",
-		"github.com/golang/lint/golint",
+		"golang.org/x/lint/golint",
 		"github.com/govend/govend",
 		"github.com/mailgun/godebug",
 		"github.com/nsf/gocode",
